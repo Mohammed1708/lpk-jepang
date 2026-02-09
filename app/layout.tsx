@@ -8,25 +8,28 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'LPK Jepang Binawan',
+  description: 'Balai Pelatihan Tenaga Ahli Jepang Bianwan',
+  keywords: ['LPK', 'Jepang', 'Binawan', 'Pelatihan', 'Tenaga Ahli'],
+  authors: [{ name: 'LPK Binawan' }],
+  creator: 'LPK Binawan',
+  publisher: 'LPK Binawan',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
+        url: '/iconbinawan.jpg',
+        type: 'image/jpeg',
       },
       {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
+        url: '/iconbinawan.jpg',
+        type: 'image/jpeg',
       },
       {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: '/iconbinawan.jpg',
+        type: 'image/jpeg',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/iconbinawan.jpg',
   },
 }
 

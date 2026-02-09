@@ -58,7 +58,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 md:h-[500px] rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/about-hero.jpg"
+                src="/said.png"
                 alt="Founder"
                 fill
                 className="object-cover"
@@ -66,13 +66,13 @@ export default function AboutPage() {
             </div>
             <div>
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-                Budi Rahardjo
+                Said Saleh Alwaini
               </h3>
               <p className="text-primary font-semibold text-lg mb-6">
-                Pendiri & CEO LPK Binawan
+                Pendiri & CEO Binawan Group
               </p>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                Dengan pengalaman lebih dari 25 tahun di industri pelatihan dan pengembangan sumber daya manusia, Budi Rahardjo memiliki visi yang jelas untuk memberdayakan talenta Indonesia agar dapat bersaing di panggung global.
+                Dengan pengalaman lebih dari 25 tahun di industri pelatihan dan pengembangan sumber daya manusia, Said Saleh Alwaini memiliki visi yang jelas untuk memberdayakan talenta Indonesia agar dapat bersaing di panggung global.
               </p>
               <div className="space-y-4">
                 <div>
@@ -112,7 +112,7 @@ export default function AboutPage() {
               <h3 className="text-2xl font-bold text-gray-900">Visi Kami</h3>
             </div>
             <p className="text-gray-700 leading-relaxed">
-              Menjadi lembaga pelatihan kerja terdepan yang menghasilkan talenta berkualitas tinggi untuk memenuhi kebutuhan industri global, dengan fokus khusus pada pasar Jepang dan Asia Tenggara, sambil memberdayakan ekonomi lokal Indonesia.
+              To be the leading company in Indonesia, empowering and developing the country’s manpower to excel globally, while fostering sustainable partnerships with international employers.
             </p>
           </div>
 
@@ -125,10 +125,10 @@ export default function AboutPage() {
               <h3 className="text-2xl font-bold text-gray-900">Misi Kami</h3>
             </div>
             <div className="space-y-3 text-gray-700">
-              <p>• Menyediakan program pelatihan yang relevan dan berkualitas internasional</p>
-              <p>• Membangun jembatan antar budaya dan industri melalui pengembangan talenta</p>
-              <p>• Memberikan dukungan komprehensif dari pelatihan hingga penempatan kerja</p>
-              <p>• Menciptakan nilai jangka panjang bagi peserta didik, perusahaan partner, dan masyarakat</p>
+              <p>• Pengembangan Tenaga Kerja</p>
+              <p>• Rekrutmen Etis</p>
+              <p>• Dukungan Holistik</p>
+              <p>• Kolaborasi dengan Institusi</p>
             </div>
           </div>
         </div>

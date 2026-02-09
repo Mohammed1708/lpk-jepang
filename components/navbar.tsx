@@ -33,9 +33,11 @@ export default function Navbar({ lang }: NavbarProps) {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href={`/${lang}/`} className="flex-shrink-0">
-            <div className="text-2xl font-bold text-primary">
-              LPK BINAWAN
-            </div>
+            <img
+              src="/logo.png"
+              alt="LPK Binawan Logo"
+              className="h-12 w-auto md:h-16"
+            />
           </Link>
 
           {/* Desktop Navigation */}
