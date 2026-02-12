@@ -20,7 +20,7 @@ export default function DecisionPage() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/gedung.jpg)',
+          backgroundImage: 'url(/Assets/gedung.jpg)',
         }}
       />
 

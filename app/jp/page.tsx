@@ -17,7 +17,7 @@ export default function EmployerHome() {
       {/* Hero Section */}
       <section className="relative h-96 md:h-[500px] overflow-hidden">
         <Image
-          src="/perusahaan-hero.jpg"
+          src="/Assets/gedung.jpg"
           alt="Building hero"
           fill
           className="object-cover"
@@ -36,7 +36,7 @@ export default function EmployerHome() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative h-80 md:h-96">
             <Image
-              src="/ecosystem.jpg"
+              src="/Assets/ecosystem.png"
               alt="Company ecosystem"
               fill
               className="object-cover rounded-lg"
@@ -181,7 +181,7 @@ export default function EmployerHome() {
         </h2>
         <div className="relative h-96 md:h-[500px] rounded-lg overflow-hidden">
           <Image
-            src="/japan-map.jpg"
+            src="/Assets/japan.png"
             alt="Japan collaboration map"
             fill
             className="object-cover"

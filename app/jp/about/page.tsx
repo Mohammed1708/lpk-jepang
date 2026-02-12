@@ -13,7 +13,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="relative h-96 md:h-[500px] overflow-hidden">
         <Image
-          src="/perusahaan-hero.jpg"
+          src="/Assets/belajar.jpg"
           alt="About hero"
           fill
           className="object-cover"
@@ -58,7 +58,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 md:h-[500px] rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/about-hero.jpg"
+                src="/bod/ceo.png"
                 alt="Founder"
                 fill
                 className="object-cover"

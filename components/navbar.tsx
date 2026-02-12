@@ -15,16 +15,14 @@ export default function Navbar({ lang }: NavbarProps) {
     ? [
         { label: 'Home', href: `/${lang}/` },
         { label: 'Tentang Kami', href: `/${lang}//about` },
-        { label: 'Kandidat Kami', href: '#candidates' },
         { label: 'Berita', href: `/${lang}//news` },
         { label: 'Hubungi Kami', href: `/${lang}//contact` },
       ]
     : [
         { label: 'ホーム', href: `/${lang}/` },
-        { label: '私たちについて', href: `/${lang}//about` },
-        { label: '候補者', href: '#candidates' },
-        { label: 'ニュース', href: `/${lang}//news` },
-        { label: 'お問い合わせ', href: `/${lang}//contact` },
+        { label: '私たちについて', href: `/${lang}/about` },
+        { label: 'ニュース', href: `/${lang}/news` },
+        { label: 'お問い合わせ', href: `/${lang}/contact` },
       ];
 
   return (
@@ -34,7 +32,7 @@ export default function Navbar({ lang }: NavbarProps) {
           {/* Logo */}
           <Link href={`/${lang}/`} className="flex-shrink-0">
             <img
-              src="/logo.png"
+              src="/logo/logo.png"
               alt="LPK Binawan Logo"
               className="h-12 w-auto md:h-16"
             />
