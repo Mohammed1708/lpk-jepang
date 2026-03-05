@@ -35,16 +35,28 @@ export default function AboutPage() {
         </h2>
         <div className="prose prose-lg max-w-none text-gray-700">
           <p className="mb-6 leading-relaxed">
-            LPK Binawan didirikan pada tahun 2003 dengan visi sederhana namun kuat: menciptakan jembatan antara talenta lokal Indonesia dengan peluang kerja internasional. Kami memahami bahwa pengembangan sumber daya manusia adalah kunci kesuksesan jangka panjang bagi setiap organisasi.
+            Perjalanan Binawan berawal dari satu tujuan memberdayakan tenaga kerja Indonesia agar mampu bersaing di kancah global. Kami telah menjadi jembatan lebih dari 130.000 tenaga profesional Indonesia untuk berkarier di luar negeri, menghadirkan kualitas, dedikasi, dan semangat kerja yang menjadi kebanggaan bangsa.
           </p>
           <p className="mb-6 leading-relaxed">
-            Selama lebih dari dua dekade, kami telah berkembang menjadi lembaga pelatihan kerja terpercaya yang telah melatih ribuan individu dan membantu ratusan perusahaan menemukan talenta terbaik. Komitmen kami terhadap keunggulan pendidikan dan penempatan kerja telah menghasilkan tingkat kepuasan pelanggan dan alumni yang luar biasa tinggi.
+            Keberhasilan ini menarik perhatian Menteri Ketenagakerjaan, Ibu Ida Fauziah, yang kemudian mempercayakan Binawan untuk membuka pasar tenaga kerja Indonesia di Jepang. Langkah besar ini bukan hanya tentang memperluas peluang kerja, tetapi juga tentang mempersiapkan generasi pekerja yang memiliki keterampilan unggul dan memahami budaya kerja Jepang yang disiplin serta berintegritas tinggi.
           </p>
           <p className="mb-6 leading-relaxed">
-            Perjalanan kami dimulai dengan tim kecil yang berdedikasi, dan kini kami memiliki fasilitas modern, instruktur bersertifikat internasional, dan jaringan global dengan partner terkemuka di berbagai industri. Setiap langkah pertumbuhan kami dipandu oleh nilai-nilai inti: integritas, inovasi, dan komitmen terhadap kesuksesan klien dan peserta didik kami.
+            Dengan ekosistem terintegrasi, mulai dari pelatihan bahasa dan budaya, sertifikasi kompetensi, hingga penempatan kerja yang terarah. Binawan berkomitmen menghadirkan tenaga kerja yang siap menghadapi tantangan global. Kami percaya, setiap individu yang berangkat bersama Binawan bukan hanya membawa kemampuan, tetapi juga harapan dan nama baik Indonesia ke panggung dunia.
           </p>
-          <p className="leading-relaxed">
-            Hari ini, LPK Binawan bangga menjadi mitra pilihan bagi perusahaan multinasional yang mencari talenta berkualitas dari Indonesia, khususnya untuk pasar Jepang dan negara-negara Asia lainnya.
+          <p className="mb-6 leading-relaxed">
+           Sebagai pelopor di industri dengan pengalaman lebih dari 48 tahun yang berfokus pada layanan dan pengembangan sumber daya manusia, Binawan telah memperoleh keahlian yang tak ternilai dalam mengembangkan dan menempatkan talenta Indonesia untuk memenuhi permintaan pasar kerja global yang terus meningkat.
+          </p>
+          <p className='mb-6 leadeing-relaxed'>
+            Kami senantiasa berupaya memastikan kesesuaian antara profil talenta Indonesia dengan standar dan kualifikasi yang diakui secara internasional, yang sering kali melibatkan peningkatan keterampilan dan kompetensi mereka.
+          </p>
+          <p className='mb-6 leading-relaxed'>
+            Sebagai wujud komitmen tersebut, kami telah mendirikan berbagai lembaga pelatihan, pendidikan vokasi, dan institusi pendidikan di bawah naungan Yayasan Binawan. Melalui inisiatif ini, kami berhasil menjadi pelopor dalam penempatan tenaga kerja Indonesia ke pasar kerja global di berbagai sektor yang sebelumnya sulit dijangkau, termasuk Timur Tengah, Eropa, Asia Timur, dan Australia.
+          </p>  
+          <p className='mb-6 leading-relaxed'>
+            Dengan terus mengarahkan langkah menuju visi kami untuk menjadi global hub yang terpercaya di pasar kerja internasional, kami siap membantu Anda bertumbuh melalui pemanfaatan jaringan besar profesional Indonesia yang berkualitas.
+          </p>
+          <p className='mb-6 leading-relaxed position-left'>
+            - Said Saleh Alwaini, CEO
           </p>
         </div>
       </section>
@@ -75,22 +87,6 @@ export default function AboutPage() {
                 Dengan pengalaman lebih dari 25 tahun di industri pelatihan dan pengembangan sumber daya manusia, Said Saleh Alwaini memiliki visi yang jelas untuk memberdayakan talenta Indonesia agar dapat bersaing di panggung global.
               </p>
               <div className="space-y-4">
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Latar Belakang Pendidikan</h4>
-                  <ul className="text-gray-600 space-y-1 text-sm">
-                    <li>• Master in Human Resource Development - University of Tokyo</li>
-                    <li>• Bachelor in Education - Universitas Indonesia</li>
-                    <li>• Sertifikasi International Training Specialist</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-2">Penghargaan</h4>
-                  <ul className="text-gray-600 space-y-1 text-sm">
-                    <li>• Best Training Institution Award 2022</li>
-                    <li>• Indonesian Export Excellence Award 2021</li>
-                    <li>• Global Talent Development Champion 2020</li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>

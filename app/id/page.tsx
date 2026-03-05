@@ -15,7 +15,7 @@ export default function EmployerHome() {
       <Navbar lang='id' />
 
       {/* Hero Section */}
-      <section className="relative h-96 md:h-[500px] overflow-hidden">
+      <section className="relative h-96 md:h-125 overflow-hidden">
         <Image
           src="/Assets/belajar.jpg"
           alt="Building hero"
@@ -51,36 +51,36 @@ export default function EmployerHome() {
                 <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <Users className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-2">Talenta Berkualitas</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">Pionir di industri ketenagakerjaan dengan</h3>
                 <p className="text-sm text-gray-600">
-                  Kandidat terlatih dan bersertifikat
+                  pengalaman 49+ tahun, telah mengirimkan lebih dari 130.000 tenaga kerja ke luar negeri
                 </p>
               </div>
               <div className="flex flex-col items-center text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <Award className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-2">Standar Internasional</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">Basis data terbesar di Indonesia</h3>
                 <p className="text-sm text-gray-600">
-                  Sertifikasi dan pelatihan terstandar
+                  untuk pekerja terampil dan tenaga ahli
                 </p>
               </div>
               <div className="flex flex-col items-center text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <Briefcase className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-2">Pengalaman Profesional</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">Komprehensif Ekosistem</h3>
                 <p className="text-sm text-gray-600">
-                  Puluhan tahun melayani industri
+                  pendidikan dan pelatihan, pelatihan di tempat kerja dan agensi
                 </p>
               </div>
               <div className="flex flex-col items-center text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <TrendingUp className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-2">Pertumbuhan Bisnis</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">Jaringan luas di Indonesia</h3>
                 <p className="text-sm text-gray-600">
-                  Solusi untuk pertumbuhan perusahaan
+                  pusat pelatihan, sekolah kejuruan, universitas, perguruan tinggi
                 </p>
               </div>
             </div>
@@ -101,7 +101,7 @@ export default function EmployerHome() {
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start gap-4">
-                  <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center shrink-0 mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -110,7 +110,7 @@ export default function EmployerHome() {
                   </div>
                 </li>
                 <li className="flex items-start gap-4">
-                  <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center shrink-0 mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -119,7 +119,7 @@ export default function EmployerHome() {
                   </div>
                 </li>
                 <li className="flex items-start gap-4">
-                  <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center shrink-0 mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -128,7 +128,7 @@ export default function EmployerHome() {
                   </div>
                 </li>
                 <li className="flex items-start gap-4">
-                  <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center shrink-0 mt-1">
                     <span className="text-white text-sm">✓</span>
                   </div>
                   <div>
@@ -179,7 +179,7 @@ export default function EmployerHome() {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
           Jaringan Kolaborasi Terbaru
         </h2>
-        <div className="relative h-96 md:h-[500px] rounded-lg overflow-hidden">
+        <div className="relative h-96 md:h-125 rounded-lg overflow-hidden">
           <Image
             src="/Assets/japan.png"
             alt="Japan collaboration map"
@@ -204,12 +204,12 @@ export default function EmployerHome() {
             Program Unggulan Kami
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[1, 2, 3].map((program) => (
+            {[1, 2, 3, 4, 5].map((program) => (
               <div
                 key={program}
                 className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 group cursor-pointer"
               >
-                <div className="relative h-48 bg-gradient-to-br from-primary/20 to-primary/5 overflow-hidden">
+                <div className="relative h-48 bg-linear-to-br from-primary/20 to-primary/5 overflow-hidden">
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-6xl font-bold text-primary/30 group-hover:scale-110 transition-transform duration-300">
                       {program}
@@ -218,16 +218,25 @@ export default function EmployerHome() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
-                    Program {program === 1 ? 'Dasar' : program === 2 ? 'Menengah' : 'Lanjutan'}
+                    Program {
+                    program === 1 ? 'Keperawatan (Kaigo)' : 
+                    program === 2 ? 'Industri Makanan dan Minuman (Food & Beverage Service)' : 
+                    program === 3 ? 'Pengolahan Makanan (Food Processing)' : 
+                    program === 4 ? 'Manufaktur & Teknik' : 
+                    'Konstruksi & Infrastruktur'} 
                   </h3>
                   <p className="text-gray-600 mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.
-                  </p>
-                  <ul className="space-y-2 text-sm text-gray-600">
-                    <li>✓ Durasi: 3-6 bulan</li>
+                      {program === 1 ? 'Untuk merespons kebutuhan tenaga kerja berketerampilan khusus di luar negeri, program ini merekrut dan menyeleksi sumber daya manusia di bidang medis. Program ini dirancang agar peserta pelatihan dapat memperoleh keterampilan dan sertifikasi yang diperlukan untuk bekerja sebagai asisten kesehatan di rumah sakit atau fasilitas keperawatan, serta dalam pekerjaan perawatan di masyarakat.' : 
+                      program === 2 ? 'Peserta akan mendapatkan pelatihan sebagai tenaga kerja di industri makanan dan minuman, termasuk bagaimana menyampaikan item-menu yang direkomendasikan, menyambut tamu restoran dengan hangat, serta memastikan kebersihan dan keamanan bahan makanan.' : 
+                      program === 3 ? 'Peserta akan mendapatkan pelatihan untuk menjalankan tanggung jawab sebagai resepsionis, petugas kebersihan (housekeeper), atau bellboy, termasuk bagaimana merespons kebutuhan tamu dan menjaga kebersihan kamar.' : 
+                      program === 4 ? 'Pengolahan makanan adalah proses mengubah bahan mentah menjadi makanan yang siap dikonsumsi atau dijual. Dalam proses ini digunakan berbagai teknik dan metode untuk meningkatkan rasa, tekstur, daya tahan simpan, maupun nilai gizi dari makanan.' : 
+                      'Kami memberikan pelatihan kepada tenaga kerja sesuai dengan bidang masing-masing, dan kemudian menyalurkan mereka untuk bekerja di Jepang.'}
+                    </p>
+                  {/* <ul className="space-y-2 text-sm text-gray-600">
+                    <li>✓ Durasi: {program === 1 ? '3-6 bulan' : program === 2 ? '2-4 bulan' : program === 3 ? '3-5 bulan' : program === 4 ? '4-6 bulan' : '5-7 bulan'}</li>
                     <li>✓ Sertifikasi internasional</li>
                     <li>✓ Magang berbayar</li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             ))}
@@ -241,7 +250,7 @@ export default function EmployerHome() {
           Profil LPK Binawan
         </h2>
         <div className="flex flex-col items-center gap-8">
-          <div className="relative w-full h-80 md:h-[500px] bg-gray-200 rounded-lg overflow-hidden group cursor-pointer">
+          <div className="relative w-full h-80 md:h-125 bg-gray-200 rounded-lg overflow-hidden group cursor-pointer">
             <div className="absolute inset-0 bg-gray-900/50 flex items-center justify-center group-hover:bg-gray-900/70 transition-colors">
               <button
                 onClick={() => setVideoOpen(true)}
